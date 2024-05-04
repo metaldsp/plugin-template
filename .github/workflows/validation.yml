@@ -22,7 +22,7 @@ env:
 # Jobs run in parallel by default
 jobs:
   build_and_validate:
-    name: Build and validate on ${{ matrix.config.name }}
+    name: ${{ matrix.config.name }}
   
     runs-on: ${{ matrix.config.os }}
     
